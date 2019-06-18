@@ -15,9 +15,6 @@ using System.Web.Mvc;
 
 namespace OloTask.Controllers
 {
-
-    
-
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -35,18 +32,13 @@ namespace OloTask.Controllers
                 .Take(20);
                 return View(mostOrderedCombination);
             }
-
-
         }
-        
-
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
-
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
