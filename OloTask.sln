@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OloTask", "OloTask\OloTask.csproj", "{DF7816FC-12D7-46CB-A81E-4EF1F06AFC22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF7816FC-12D7-46CB-A81E-4EF1F06AFC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7816FC-12D7-46CB-A81E-4EF1F06AFC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7816FC-12D7-46CB-A81E-4EF1F06AFC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7816FC-12D7-46CB-A81E-4EF1F06AFC22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D99B1568-B8CF-4D68-9CC7-257D6AA7D084}
+	EndGlobalSection
+EndGlobal

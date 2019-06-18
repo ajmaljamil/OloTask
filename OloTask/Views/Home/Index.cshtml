@@ -1,0 +1,36 @@
+﻿@model IEnumerable<OloTask.Models.MostOrderedToppings>
+@{
+    ViewBag.Title = "Most Ordered Toppings";
+}
+<div id="wrapper" class="animate">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Top 20 Most Ordered Toppings</h5>
+                        <table class="table table-super-responsive table-striped table-nowrap">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Toppings</th>
+                                    <th scope="col">Ordered</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <th scope="row">@item.RowNumber</th>
+                                        <td>@string.Join(", ", item.Topping.ToArray())</td>
+                                        <td>@item.Count</td>
+                                    </tr>
+                                }
+                                </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
